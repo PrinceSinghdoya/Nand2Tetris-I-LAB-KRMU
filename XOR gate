@@ -7,3 +7,4 @@ CHIP Xor {
     Nand(a=a , b=b , out=n2 );
     Nand(a=b, b=n1 , out=n3 );
     Nand(a=n2 , b=n3 , out=out );
+}
